@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"
+     xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+         <!-- bean definitions here -->
+        
+        <bean class = "com.CollectionType.Person" name ="person">
+        <property name="name" value ="Scholor Mission School"/>
+        <property name="Add" value ="Kanpur"/>
+        <property name="list">
+        <list>
+         <value>2nd</value>
+          <value>3rd</value>
+           <value>4th</value>
+            <value>5th</value>
+            <value>6th</value>
+             <value>7th</value>
+              <value>8th</value>
+        </list>
+        
+        </property>
+        
+        <property name = "set">
+        <set>
+         <value>Scratch</value>
+          <value>HTML</value>
+           <value>Email</value>
+            <value>Python</value>
+            <value>Python</value>
+        </set>
+        
+        </property>
+        
+        <property name="map">
+        <map>
+        <entry key ="2nd" value ="34"/>
+        <entry key ="3rd" value ="35"/>
+        <entry key ="4th" value ="40"/>
+        <entry key ="5th" value ="33"/>
+        <entry key ="6th" value ="28"/>
+        <entry key ="7th" value ="22"/>
+        <entry key ="8th" value ="20"/>
+        </map>
+        
+        </property>
+        </bean>
+	
+ 	
+</beans>
